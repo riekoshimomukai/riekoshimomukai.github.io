@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body{
+	font-family: "Sawarabi Mincho";
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	height: 200px;
+	background-color: #f4f4f4;
+	z-index: 10000;
+	}
+
+
+.title{
+	width: 500px;
+	height: auto;
+	float: left;
+	margin: 50px 0 0 30px;
+}
+
+.nav{
+	float: right;
+}
+
+.nav2, .nav1{
+	float: left;
+	margin: 30px 100px;
+}
+
+.nav-list{
+	width: 120px;
+	text-align: right;
+	list-style: none;	
+}
+
+.nav-list a{
+	color: #24140e;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.topics{
+	width: 100px;
+	height: 50px;
+	border: 3px double #24140e;
+	position: relative;
+	top: 250px;
+	left: 90px;
+	margin-bottom: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.main{
+	width: 1210px;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+
+.img-box1, .img-box2{
+	width: 500px;
+	height: 600px;
+	margin: 50px;
+	float: left;
+}
+
+.mieko{
+	background-image: url(../img/mieko.jpg);
+	width: 500px;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+}
+
+.interview{
+	width: 500px;
+	color: #24140e;
+	margin-top: 30px
+}
+
+.shoko{
+	background-image: url(../img/日常の中に.png);
+	border: 1px solid #24140e;
+	width: 500px;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+}
+
+.book{
+	width: 500px;
+	color: #24140e;
+	margin-top: 30px
+}
+
+
+
+.footer{
+	height: 60px;
+	background-color: #f4f4f4;
+	text-align: center;
+	line-height:  60px;
+	}
+
+
